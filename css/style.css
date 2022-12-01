@@ -1,0 +1,119 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Robotolight.woff2"), url("../fonts/Robotolight.woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto.woff2"), url("../fonts/Roboto.woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Robotomedium.woff2"), url("../fonts/Robotomedium.woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Robotobold.woff2"), url("../fonts/Robotobold.woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Yeseva One";
+  src: url("../fonts/yesevaone.woff2"), url("../fonts/yesevaone.woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #151313;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  white-space: nowrap;
+  border: 0;
+  clip-path: inset(100%);
+}
+
+.container {
+  position: relative;
+  max-width: 1286px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.section__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.section__title {
+  margin: 0;
+  font-family: "Yeseva One", "Georgia", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.section__desc {
+  margin: 0;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #a07b50;
+}
